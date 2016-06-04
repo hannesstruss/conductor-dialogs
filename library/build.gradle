@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+
+android {
+  compileSdkVersion 23
+  buildToolsVersion "23.0.3"
+
+  defaultConfig {
+    minSdkVersion 16
+    targetSdkVersion 23
+  }
+}
+
+dependencies {
+  testCompile 'junit:junit:4.12'
+
+  compile 'com.bluelinelabs:conductor:1.1.6'
+}
