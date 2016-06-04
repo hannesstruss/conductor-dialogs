@@ -15,3 +15,5 @@ dependencies {
 
   compile 'com.bluelinelabs:conductor:1.1.6'
 }
+
+apply from: '../mvn-push.gradle'
