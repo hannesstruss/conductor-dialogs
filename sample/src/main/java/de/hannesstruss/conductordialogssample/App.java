@@ -1,4 +1,4 @@
-package de.hannesstruss.conductordialogs;
+package de.hannesstruss.conductordialogssample;
 
 import android.app.Application;
 

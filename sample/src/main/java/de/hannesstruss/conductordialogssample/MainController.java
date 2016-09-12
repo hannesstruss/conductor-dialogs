@@ -1,4 +1,4 @@
-package de.hannesstruss.conductordialogs;
+package de.hannesstruss.conductordialogssample;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.bluelinelabs.conductor.Controller;
+
+import de.hannesstruss.conductordialogs.DialogManager;
 
 public class MainController extends Controller {
   public static final String PROGRESS_DIALOG_TAG = "MyProgressDialog";
